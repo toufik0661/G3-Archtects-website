@@ -6,10 +6,35 @@
   font-weight: 400;
   font-style: normal;
 }
-.nav_list_style li{
+
+/* shard style */
+.display_flex {
+  display: flex;
+}
+.dark_02{
+  color: #424242;
+}
+.bg_light{
+color: rgb(249, 135, 14);
+}
+
+/* nav section start */
+.navbar {
+  justify-content: space-between;
+}
+.baner{
+  font-size: 45px;
+  font-weight: 700;
+}
+.nav_item {
   list-style: none;
+
 }
-.nav_list_style li a{
+
+.nav_link {
+  margin-right: 30px;
   text-decoration: none;
-  color: #000;
+  font-weight: 500;
 }
+
+/* nav section end */
